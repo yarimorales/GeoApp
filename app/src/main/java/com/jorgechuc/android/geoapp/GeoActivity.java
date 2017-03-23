@@ -20,7 +20,7 @@ public class GeoActivity extends AppCompatActivity {
             @Override
             public void onClick (View view){
 
-                Toas.makeText(GeoActivity.this, R.string.texto_correcto, Toas.LENGTH_SHORT).show();
+                //Toas.makeText(GeoActivity.this, R.string.texto_correcto, Toas.LENGTH_SHORT).show();
             }
         }};
 
@@ -30,7 +30,7 @@ public class GeoActivity extends AppCompatActivity {
         @Override
         public void onClick (View view){
 
-        Toas.makeText(GeoActivity.this, R.string.texto_incorrecto, Toas.LENGTH_SHORT).show();
+        //Toas.makeText(GeoActivity.this, R.string.texto_incorrecto, Toas.LENGTH_SHORT).show();
     }
     }};
             }

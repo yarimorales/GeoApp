@@ -55,7 +55,16 @@
         android:layout_toEndOf="@+id/boton_cierto"
         android:layout_toRightOf="@+id/boton_cierto"
         android:text="Falso"
+        />
 
+    <Button
+        android:id="@+id/boton_siguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        android:layout_below="@+id/boton_cierto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
         />
 
 </RelativeLayout>
